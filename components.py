@@ -73,7 +73,7 @@ def display_initial_ai_message():
         
         # 黄色の注意メッセージ
         st.warning(
-            f"{ct.WARNING_ICON} 具体的に入力したほうが期待通りの回答を得やすいです。"
+            f"㊟  具体的に入力したほうが期待通りの回答を得やすいです。"
         )
 
 
