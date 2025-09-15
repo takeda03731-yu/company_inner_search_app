@@ -1,0 +1,15 @@
+[ERROR] 2025-09-07 17:40:52,386 line 44, in <module>, session_id=03b228caf0c94fffb4bbd9e9cb391da3: 初期化処理に失敗しました。
+`np.float_` was removed in the NumPy 2.0 release. Use `np.float64` instead.
+[ERROR] 2025-09-07 17:44:54,029 line 44, in <module>, session_id=583d5319ca314562ab192ee6f62dd802: 初期化処理に失敗しました。
+`np.float_` was removed in the NumPy 2.0 release. Use `np.float64` instead.
+[ERROR] 2025-09-07 17:54:59,876 line 44, in <module>, session_id=155034d09e57410497f35e082649b6be: 初期化処理に失敗しました。
+`np.float_` was removed in the NumPy 2.0 release. Use `np.float64` instead.
+[ERROR] 2025-09-07 18:02:59,146 line 44, in <module>, session_id=7a62b88fd1d345078bb9cc45345507c1: 初期化処理に失敗しました。
+`np.float_` was removed in the NumPy 2.0 release. Use `np.float64` instead.
+[ERROR] 2025-09-07 18:06:19,001 line 44, in <module>, session_id=571b4cfbc9994379ae922945db248370: 初期化処理に失敗しました。
+`np.float_` was removed in the NumPy 2.0 release. Use `np.float64` instead.
+[ERROR] 2025-09-07 18:09:49,955 line 44, in <module>, session_id=41129d7792e0490aaa97a9a8d93109eb: 初期化処理に失敗しました。
+`np.float_` was removed in the NumPy 2.0 release. Use `np.float64` instead.
+[INFO] 2025-09-07 18:38:29,499 line 53, in <module>, session_id=8a333933e8f84e37b4ebb17b8e0f3c3d: アプリが起動されました。
+[INFO] 2025-09-07 18:39:37,432 line 98, in <module>, session_id=8a333933e8f84e37b4ebb17b8e0f3c3d: {'message': '【入力例】\n人事部に所属している従業員情報を一覧化して', 'application_mode': '社内問い合わせ'}
+[INFO] 2025-09-07 18:39:46,095 line 142, in <module>, session_id=8a333933e8f84e37b4ebb17b8e0f3c3d: {'message': {'mode': '社内問い合わせ', 'answer': '### 人事部に所属している従業員情報\n\n| 社員ID  | 氏名（フルネーム） | 性別 | 生年月日   | 年齢 | メールアドレス               | 従業員区分 | 入社日       | 役職   | スキルセット                           | 保有資格                                   | 大学名         | 学部・学科     | 卒業年月日   |\n|---------|------------------|------|------------|------|-----------------------------|------------|--------------|--------|----------------------------------------|--------------------------------------------|----------------|----------------|--------------|\n| EMP0047 | 林 千代           | 女性 | 1999-07-16 | 26   | yumiko77@example.com        | インターン  | 2021-05-22   | スタッフ | PowerPoint, Java, プロジェクト管理   | AWS認定ソリューションアーキテクト, Salesforce認定アドミニストレーター | 筑波大学       | 経済学部       | 2009-12-05   |\n\n人事部に所属している従業員は林 千代さんのみです。', 'message': '情報源', 'file_info_list': ['./data\\MTG議事録\\採用\\採用ミーティング議事録.docx', './data\\社員について\\社員名簿.csv']}, 'application_mode': '社内問い合わせ'}
