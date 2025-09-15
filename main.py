@@ -5,6 +5,10 @@
 ############################################################
 # 1. ライブラリの読み込み
 ############################################################
+# SQLiteを使用するためのモジュール（Streamlit Cloudで動作させるための対応）
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 # 「.env」ファイルから環境変数を読み込むための関数
 from dotenv import load_dotenv
 # ログ出力を行うためのモジュール
